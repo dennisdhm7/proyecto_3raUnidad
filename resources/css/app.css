@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.primary {
+    color: #31ae7f;
+    color: #82b341;
+}
+
+.v-list-item__prepend > .v-badge ~ .v-list-item__spacer,
+.v-list-item__prepend > .v-icon ~ .v-list-item__spacer,
+.v-list-item__prepend > .v-tooltip ~ .v-list-item__spacer {
+    width: 16px !important;
+}
+
+.child-table th, .child-table td {
+    border-bottom: none !important;
+}
+.child-table td {
+    padding-top: .15rem !important;
+    padding-bottom: .15rem !important;
+}
